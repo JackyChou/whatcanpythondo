@@ -18,4 +18,7 @@ def create_app(config_name):
     from .main import main_bp
     app.register_blueprint(main_bp)
 
+    from .image_processing import image_processing_bp
+    app.register_blueprint(image_processing_bp)
+
     return app
