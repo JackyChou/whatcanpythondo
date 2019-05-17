@@ -10,6 +10,8 @@ flask-wtf = "*"
 wtforms-components = "*"
 flask-script = "*"
 python-dotenv = "*"
+pillow = "*"
+coverage = "==4.5.1"
 
 [dev-packages]
 
